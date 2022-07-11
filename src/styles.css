@@ -23,17 +23,58 @@ h3 {
   font-size: 24px;
   opacity: 0.7;
 }
+p {
+  margin-top: 60px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 2;
+  font-weight: bold;
+  border: 1px solid #eee;
+  border-radius: 9px;
+  background-color: #ffe6eb;
+}
 .flex-buttons {
   display: flex;
-  margin-top: 40px;
+  margin: 40px;
+  justify-content: center;
+}
+.flex-cards {
+  display: flex;
   justify-content: center;
 }
 .contact-me-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 .about-me-link {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+footer {
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 150px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+}
+.homepage-link {
+  display: flex;
+  justify-content: center;
 }
