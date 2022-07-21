@@ -5,12 +5,13 @@
 }
 body {
   margin: 60px auto;
-  max-width: 800px;
+  font-family: var(--bs-font-sans-serif);
 }
 h1,
 h2,
 h3 {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   margin: 0;
 }
 h1 {
@@ -25,8 +26,8 @@ h3 {
 }
 p {
   margin-top: 60px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 400px;
+  margin-right: 400px;
   padding: 40px 20px 40px 20px;
   text-align: center;
   font-size: 20px;
@@ -41,8 +42,9 @@ p {
   margin: 40px;
   justify-content: center;
 }
-.flex-cards {
+.flex {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .contact-me-link {
@@ -77,4 +79,16 @@ footer {
 .homepage-link {
   display: flex;
   justify-content: center;
+}
+.button-style {
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.nav-bar {
+  position: fixed;
 }
