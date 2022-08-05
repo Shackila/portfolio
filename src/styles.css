@@ -88,13 +88,7 @@ body {
 .about-paragraphs p {
   margin: 10px;
 }
-footer {
-  font-size: 35px;
-  font-weight: bold;
-  text-align: center;
-  margin-top: 150px;
-  font-family: "Playfair Display", serif;
-}
+
 .email-link {
   display: flex;
   justify-content: center;
