@@ -6,22 +6,22 @@
 
 @keyframes bgcolor {
   0% {
-    background-color: #e8f6f6;
+    background-color: #deddfa;
   }
   20% {
-    background-color: #ebfcee;
+    background-color: #ffdede;
   }
   40% {
-    background-color: #fbfcee;
+    background-color: #ffe8cf;
   }
   60% {
-    background-color: #f5f6f0;
+    background-color: #fdfdc4;
   }
   80% {
-    background-color: #fdfdf1;
+    background-color: #bfcfff;
   }
   100% {
-    background-color: #f2f2f2;
+    background-color: #ccffec;
   }
 }
 .bg-color {
@@ -33,39 +33,27 @@
 }
 body {
   margin: 60px auto;
-  font-family: var(--bs-font-sans-serif);
 }
-h1,
-h2,
-h3 {
 
-  display: flex;
-  justify-content: center;
-
-  margin: 0;
-}
 .customized-padding {
   padding: 220px;
 }
-h1 {
-  font-size: 76px;
+
+.title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
-h2 {
-  font-size: 48px;
-}
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
-}
+
 .about-paragraphs {
   margin: 30px 0px;
   font-size: 20px;
   line-height: 2;
-  font-weight: bold;
   text-align: center;
   border: 1px solid #eee;
   border-radius: 9px;
   background-color: #ffe6eb;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 80px;
 }
 .flex-buttons {
   display: flex;
@@ -105,6 +93,7 @@ footer {
   font-weight: bold;
   text-align: center;
   margin-top: 150px;
+  font-family: "Playfair Display", serif;
 }
 .email-link {
   display: flex;
@@ -125,4 +114,8 @@ footer {
 }
 .nav-bar {
   position: fixed;
+  background-color: #f2f2f2;
+}
+.paragraph {
+  font-family: "Poppins", sans-serif;
 }
